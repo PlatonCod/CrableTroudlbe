@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "declaration": true,
+    "target": "es2019",
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "allowJs": true,
+    "checkJs": true,
+    "noEmitOnError": true
+  },
+  "include": ["src/**/*"]
+}
