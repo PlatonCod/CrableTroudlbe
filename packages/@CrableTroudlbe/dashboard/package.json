@@ -1,0 +1,50 @@
+{
+  "name": "@uppy/dashboard",
+  "description": "Universal UI plugin for Uppy.",
+  "version": "3.7.1",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "style": "dist/style.min.css",
+  "types": "types/index.d.ts",
+  "type": "module",
+  "keywords": [
+    "file uploader",
+    "uppy",
+    "uppy-plugin",
+    "dashboard",
+    "ui"
+  ],
+  "homepage": "https://uppy.io",
+  "bugs": {
+    "url": "https://github.com/transloadit/uppy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transloadit/uppy.git"
+  },
+  "dependencies": {
+    "@transloadit/prettier-bytes": "0.0.7",
+    "@uppy/informer": "workspace:^",
+    "@uppy/provider-views": "workspace:^",
+    "@uppy/status-bar": "workspace:^",
+    "@uppy/thumbnail-generator": "workspace:^",
+    "@uppy/utils": "workspace:^",
+    "classnames": "^2.2.6",
+    "is-shallow-equal": "^1.0.1",
+    "lodash": "^4.17.21",
+    "memoize-one": "^6.0.0",
+    "nanoid": "^4.0.0",
+    "preact": "^10.5.13"
+  },
+  "devDependencies": {
+    "@uppy/google-drive": "workspace:^",
+    "@uppy/status-bar": "workspace:^",
+    "@uppy/url": "workspace:^",
+    "@uppy/webcam": "workspace:^",
+    "resize-observer-polyfill": "^1.5.0",
+    "vitest": "^0.34.5"
+  },
+  "peerDependencies": {
+    "@uppy/core": "workspace:^"
+  }
+}
